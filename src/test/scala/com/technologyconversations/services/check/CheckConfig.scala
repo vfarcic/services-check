@@ -18,6 +18,12 @@ object CheckConfig {
       None
     }
 
+    def getOptionalConfig(path: String): Option[Config] = if (underlying.hasPath(path)) {
+      Some(underlying.getConfig(path))
+    } else {
+      None
+    }
+
   }
 
 }

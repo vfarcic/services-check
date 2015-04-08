@@ -3,7 +3,7 @@ name := "services-check"
 version := "1.0"
 
 libraryDependencies ++= {
-  val specs2V = "2.3.12"
+  val specs2V = "2.4"
   Seq(
     "org.specs2"                %%  "specs2-core"     % specs2V   % "test",
     "org.specs2"                %%  "specs2-html"     % specs2V   % "test",
